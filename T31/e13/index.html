@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Eventos de clic en párrafos</title>
+  <script>
+    function handleClick() {
+      alert("Se presionó un párrafo del documento");
+    }
+
+    function handleTableClick() {
+      alert("Se presionó un párrafo contenido en la segunda tabla.");
+    }
+  </script>
+</head>
+<body>
+  <p onclick="handleClick()">Este es un párrafo del documento.</p>
+
+  <table>
+    <tr>
+      <td>
+        <p>Párrafo en la tabla 1</p>
+      </td>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <td>
+        <p onclick="handleTableClick()">Párrafo en la tabla 2 - 1</p>
+      </td>
+      <td>
+        <p onclick="handleTableClick()">Párrafo en la tabla 2 - 2</p>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

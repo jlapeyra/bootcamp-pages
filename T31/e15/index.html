@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <style>
+        body {
+            align-self: center;
+        }
+        td img {
+            width: 3em;
+        }
+    </style>
+    <script>
+        function change(src) {
+            document.getElementById("main").src = src;
+        }
+    </script>
+</head>
+
+<body>
+    <img src="img/foto1.jpg" alt="" id="main">
+    <table>
+        <tr>
+            <td><img src="img/foto1.jpg" alt="" onclick="change(src)"></td>
+            <td><img src="img/foto2.jpg" alt="" onclick="change(src)"></td>
+            <td><img src="img/foto3.jpg" alt="" onclick="change(src)"></td>
+            <td><img src="img/foto4.jpg" alt="" onclick="change(src)"></td>
+            <td><img src="img/foto5.jpg" alt="" onclick="change(src)"></td>
+            <td><img src="img/foto6.jpg" alt="" onclick="change(src)"></td>
+            <td><img src="img/foto7.jpg" alt="" onclick="change(src)"></td>
+            <td><img src="img/foto8.jpg" alt="" onclick="change(src)"></td>
+        </tr>
+    </table>
+</body>
+
+</html>
