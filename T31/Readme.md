@@ -1,6 +1,4 @@
-[Exercici 11](./e11)
-
-[Exercici 12](./e12)
+Aquesta pàgina conté els exercicis de la tasca 31 que contenen un HTML. La resta d'exercicis només contenen JavaScrpt, que el podeu trobar al [repositori](https://github.com/jlapeyra/bootcamp-pages/edit/master/T31/)
 
 [Exercici 13](./e13)
 
